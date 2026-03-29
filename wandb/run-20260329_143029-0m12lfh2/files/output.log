@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/Users/shreyamagar16/Desktop/dl-gen-ai/src/train.py", line 28, in <module>
+    for folder in os.listdir(genre_path):
+                  ~~~~~~~~~~^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/kaggle/input/competitions/jan-2026-dl-gen-ai-project/messy_mashup/genres_stems/blues'

@@ -1,0 +1,17 @@
+{
+  "os": "macOS-26.2-arm64-arm-64bit-Mach-O",
+  "python": "CPython 3.14.3",
+  "startedAt": "2026-03-29T09:00:29.423284Z",
+  "program": "/Users/shreyamagar16/Desktop/dl-gen-ai/src/train.py",
+  "codePath": "src/train.py",
+  "codePathLocal": "src/train.py",
+  "git": {
+    "remote": "https://github.com/shreyamagar16/dl-gen-ai.git",
+    "commit": "45cac8111b47ae1e88820cf45a897c2da6d2a6c9"
+  },
+  "email": "24f1002698@ds.study.iitm.ac.in",
+  "root": "/Users/shreyamagar16/Desktop/dl-gen-ai",
+  "host": "syn-097-085-229-074.res.spectrum.com",
+  "executable": "/Users/shreyamagar16/Desktop/dl-gen-ai/venv/bin/python",
+  "writerId": "k9y9rrycjtik8p0h7i74u20o11i8d9yl"
+}
