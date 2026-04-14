@@ -22,7 +22,12 @@ def set_random_seed(seed: int) -> None:
     torch.manual_seed(seed)
     if torch.cuda.is_available():
         torch.cuda.manual_seed_all(seed)
-
+def get_device() -> torch.device:
+    """Return ``torch.device`` for CUDA if a GPU is available, otherwise CPU.
+    Returns:
+        ``cuda`` when ``torch.cuda.is_available()`` is true, else ``cpu``.
+    """
+    return torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 def compute_macro_f1(y_true, y_pred) -> float:
     """Compute macro-averaged F1 (unweighted mean of per-class F1 scores).
