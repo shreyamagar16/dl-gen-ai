@@ -1,0 +1,11 @@
+torch
+torchaudio
+librosa
+soundfile
+transformers
+wandb
+scikit-learn
+pandas
+numpy
+matplotlib
+accelerate
